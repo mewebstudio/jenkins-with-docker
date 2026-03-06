@@ -1,7 +1,7 @@
 #!/bin/bash
 
 IMAGE_NAME="mewebstudio/jenkins-with-docker"
-VERSION="1.0.2"
+VERSION="1.0.4"
 
 docker buildx build \
   --platform linux/amd64,linux/arm64,linux/ppc64le \
